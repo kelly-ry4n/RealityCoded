@@ -1,0 +1,50 @@
+body {
+    padding-top: 90;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 1px;
+    width: 300;
+}
+
+frame {
+    border: 0px;
+}
+input:focus {
+    border-color: #0a5600;
+    box-shadow:0 0 3px #0a5600;
+}
+
+#banner{
+    width:85%;
+    padding-bottom:15px;
+    display:block;
+    font-size:18px;
+    font-weight:bold;
+    padding:8px;
+    color:#FFFFFF;
+    text-align: right;
+}
+
+a.banner:link,a.banner:visited
+{
+    line-height:35px;
+    text-align:center;
+    text-decoration:none;
+}
+
+#in_button {
+    color:red;
+    width:200;
+}
+#in_button:focus {
+    color: #0a5600;
+    background-color: #0a5600;
+}
+
+h3 {
+    color: #0a5600;
+}
